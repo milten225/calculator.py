@@ -12,7 +12,7 @@ while True:
 		elif s == '*':
 			print("%.2f" % (num_1*num_2))
 		elif s == '/':
-			if y != 0:
+			if num_2 != 0:
 				print("%.2f" % (num_1/num_2))
 			else:
 				print("Деление на ноль!")
